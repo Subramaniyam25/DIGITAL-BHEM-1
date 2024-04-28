@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Calculator</title>
+</head>
+<body style="cursor: pointer;">
+    <div>
+        <h2 style="text-align: center;font-size: 35px;text-shadow: 2px 2px 2px gainsboro;">STANDARD CALCULATOR</h2>
+        <div class="second"><input style="color: white;" id="gainput"></div>
+    <div class="first">
+        <div style="width: 220px;" onclick="clea()">C</div>
+        <div style="width: 220px;" onclick="on()" id="onbutton">ON</div>
+        <div style="width: 220px;display: none;" onclick="off()" id="offbutton">OFF</div>
+    </div>
+    <div class="first">
+        <div onclick="one('1')">1</div>
+        <div onclick="two('2')">2</div>
+        <div onclick="three('3')">3</div>
+        <div onclick="add('+')">+</div>
+    </div>
+    <div class="first">
+        <div onclick="four('4')">4</div>
+        <div onclick="five('5')">5</div>
+        <div onclick="six('6')">6</div>
+        <div onclick="sub('-')">-</div>
+    </div>
+    <div class="first">
+        <div onclick="seven('7')">7</div>
+        <div onclick="eight('8')">8</div>
+        <div onclick="nine('9')">9</div>
+        <div onclick="mul('*')">x</div>
+    </div>
+    <div class="first">
+        <div onclick="zero('0')">0</div>
+        <div onclick="point('.')">.</div>
+        <div onclick="cal()">=</div>
+        <div onclick="div('/')">/</div>
+    </div>
+</div>
+<script src="scripts.js"></script>
+</body>
+</html>

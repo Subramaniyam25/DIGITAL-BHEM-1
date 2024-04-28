@@ -1,0 +1,48 @@
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.first > div:active{
+    background-color: gainsboro;
+    border: 1px solid black;
+    color: black;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+.first > div > input{
+    display: flex;
+    width: 460px;
+    height: 60px;
+    font-size: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px 3px black;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.second > input {
+    width: 460px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px 3px black;
+    font-size: 22px;
+}
